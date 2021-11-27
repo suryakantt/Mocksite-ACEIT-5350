@@ -24,7 +24,7 @@ import javax.annotation.PostConstruct;
 )
 public class BylineImpl implements Byline {
 
-    protected static final String RESOURCE_TYPE = "aceit/components/content/byline";
+    protected static final String RESOURCE_TYPE = "aceit-5350/components/content/byline";
 
     @Self
     private SlingHttpServletRequest request;

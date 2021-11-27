@@ -32,7 +32,7 @@ class BylineImplTest {
     void setUp() throws Exception {
         ctx.addModelsForClasses(BylineImpl.class);
 
-        ctx.load().json("/com.adobe.aem.guides.aceit.core.models.impl/BylineImplTest", "/content");
+        ctx.load().json("/com.adobe.aem.guides.aceit.core.models.impl/BylineImplTest.json", "/content");
 
         lenient().when(modelFactory.getModelFromWrappedRequest(eq(ctx.request()), any(Resource.class), eq(Image.class)))
                 .thenReturn(image);
