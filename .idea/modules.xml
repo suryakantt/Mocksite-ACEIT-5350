@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/aem-guides-aceit/aem-guides-aceit.iml" filepath="$PROJECT_DIR$/aem-guides-aceit/aem-guides-aceit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aem-guides-aceit/all/aem-guides-aceit.all.iml" filepath="$PROJECT_DIR$/aem-guides-aceit/all/aem-guides-aceit.all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aem-guides-aceit/core/aem-guides-aceit.core.iml" filepath="$PROJECT_DIR$/aem-guides-aceit/core/aem-guides-aceit.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aem-guides-aceit/dispatcher/aem-guides-aceit.dispatcher.ams.iml" filepath="$PROJECT_DIR$/aem-guides-aceit/dispatcher/aem-guides-aceit.dispatcher.ams.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aem-guides-aceit/it.tests/aem-guides-aceit.it.tests.iml" filepath="$PROJECT_DIR$/aem-guides-aceit/it.tests/aem-guides-aceit.it.tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aem-guides-aceit/ui.apps/aem-guides-aceit.ui.apps.iml" filepath="$PROJECT_DIR$/aem-guides-aceit/ui.apps/aem-guides-aceit.ui.apps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aem-guides-aceit/ui.apps.structure/aem-guides-aceit.ui.apps.structure.iml" filepath="$PROJECT_DIR$/aem-guides-aceit/ui.apps.structure/aem-guides-aceit.ui.apps.structure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aem-guides-aceit/ui.config/aem-guides-aceit.ui.config.iml" filepath="$PROJECT_DIR$/aem-guides-aceit/ui.config/aem-guides-aceit.ui.config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aem-guides-aceit/ui.content/aem-guides-aceit.ui.content.iml" filepath="$PROJECT_DIR$/aem-guides-aceit/ui.content/aem-guides-aceit.ui.content.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aem-guides-aceit/ui.frontend/aem-guides-aceit.ui.frontend.iml" filepath="$PROJECT_DIR$/aem-guides-aceit/ui.frontend/aem-guides-aceit.ui.frontend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aem-guides-aceit/ui.tests/aem-guides-aceit.ui.tests.iml" filepath="$PROJECT_DIR$/aem-guides-aceit/ui.tests/aem-guides-aceit.ui.tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/mocksite.iml" filepath="$PROJECT_DIR$/.idea/mocksite.iml" />
+    </modules>
+  </component>
+</project>

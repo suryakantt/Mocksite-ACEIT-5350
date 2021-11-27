@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-11-25T13:38:46.898+05:30"
+        cq:lastModifiedBy="admin"
+        cq:policy="aceit-5350/components/page/policy"
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="wcm/core/components/policies/mappings">
+        <root
+            cq:policy="aceit-5350/components/container/policy_1574694950110"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/core/components/policies/mapping">
+            <container
+                cq:policy="aceit-5350/components/container/policy_649128221558427"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/core/components/policies/mapping">
+                <breadcrumb
+                    cq:policy="aceit-5350/components/breadcrumb/policy_1637826613482"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/core/components/policies/mapping"/>
+                <container
+                    cq:policy="aceit-5350/components/container/policy_1574695586800"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/core/components/policies/mapping">
+                    <aceit-5350 jcr:primaryType="nt:unstructured">
+                        <components jcr:primaryType="nt:unstructured">
+                            <text
+                                cq:policy="aceit-5350/components/text/policy_47314832962896"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="wcm/core/components/policies/mapping"/>
+                        </components>
+                    </aceit-5350>
+                </container>
+                <container_556083039
+                    cq:policy="aceit-5350/components/container/policy_46881076511016"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/core/components/policies/mapping"/>
+            </container>
+            <experiencefragment
+                cq:policy="aceit-5350/components/experiencefragment/policy_footer"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/core/components/policies/mapping"/>
+            <experiencefragment_1237184074
+                cq:policy="aceit-5350/components/experiencefragment/policy_header"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/core/components/policies/mapping"/>
+        </root>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/aceit-5350" mode="merge"/>
+    <filter root="/content/aceit-5350" mode="merge"/>
+    <filter root="/content/dam/aceit-5350" mode="merge"/>
+    <filter root="/content/experience-fragments/aceit-5350" mode="merge"/>
+</workspaceFilter>
