@@ -164,7 +164,7 @@
                     </rtePlugins>
                 </policy_641562756958017>
                 <policy_47314832962896
-                    jcr:lastModified="{Date}2021-11-25T13:34:27.941+05:30"
+                    jcr:lastModified="{Date}2021-11-27T09:25:26.582+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="content text"
@@ -173,7 +173,7 @@
                     <rtePlugins jcr:primaryType="nt:unstructured">
                         <paraformat
                             jcr:primaryType="nt:unstructured"
-                            features="-">
+                            features="*">
                             <formats
                                 jcr:primaryType="nt:unstructured"
                                 override="true">
@@ -217,6 +217,10 @@
                                     jcr:primaryType="nt:unstructured"
                                     description="Preformatted"
                                     tag="pre"/>
+                                <item10
+                                    jcr:primaryType="nt:unstructured"
+                                    description="cmp-text--quote"
+                                    tag="Quote Block"/>
                             </formats>
                         </paraformat>
                         <misctools
@@ -302,6 +306,28 @@
                     type="h2">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy_641528232375303>
+                <policy_81400399318729
+                    jcr:lastModified="{Date}2021-11-27T09:18:17.577+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="aceit title"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    allowedTypes="[h1,h2,h3,h4,h5,h6]"
+                    linkDisabled="false"
+                    type="h1">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                    <cq:styleGroups jcr:primaryType="nt:unstructured">
+                        <item0 jcr:primaryType="nt:unstructured">
+                            <cq:styles jcr:primaryType="nt:unstructured">
+                                <item0
+                                    cq:styleClasses="cmp-title--underline"
+                                    cq:styleId="1637983497437"
+                                    cq:styleLabel="Underline"
+                                    jcr:primaryType="nt:unstructured"/>
+                            </cq:styles>
+                        </item0>
+                    </cq:styleGroups>
+                </policy_81400399318729>
             </title>
             <experiencefragment jcr:primaryType="nt:unstructured">
                 <policy_header
@@ -362,12 +388,12 @@
                 </policy_1574694950110>
                 <policy_1574695586800
                     jcr:description="Allows the page components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
-                    jcr:lastModified="{Date}2021-11-25T13:23:24.548+05:30"
+                    jcr:lastModified="{Date}2021-11-27T09:15:06.377+05:30"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Page Content"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    components="[group:ACEIT-5350 Sites Project - Content,/apps/aceit-5350/components/form/container]"
+                    components="[group:aceit-5350 Sites Project - Content,/apps/aceit-5350/components/form/container]"
                     layoutDisabled="false">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                     <cq:authoring jcr:primaryType="nt:unstructured">
@@ -475,12 +501,17 @@
             <page jcr:primaryType="nt:unstructured">
                 <policy
                     jcr:description="Includes the required client libraries."
+                    jcr:lastModified="{Date}2021-11-27T08:50:59.359+05:30"
+                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Generic Page"
                     sling:resourceType="wcm/core/components/policy/policy"
                     clientlibs="[aceit-5350.dependencies,aceit-5350.site]"
                     clientlibsJsHead="aceit-5350.dependencies">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
+                    <cq:styleGroups jcr:primaryType="nt:unstructured">
+                        <item0 jcr:primaryType="nt:unstructured"/>
+                    </cq:styleGroups>
                 </policy>
             </page>
             <breadcrumb jcr:primaryType="nt:unstructured">
